@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{f89da923-81ed-433b-b949-e1d3d860e18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Util">
+      <UniqueIdentifier>{bd2dd7e9-f36a-4e4c-a54e-357a9fd7e509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Game">
+      <UniqueIdentifier>{cfdd22e6-78b0-47fd-8101-084a578538ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Menu">
+      <UniqueIdentifier>{b5dead76-7488-428f-b908-1481c14624f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Pause">
+      <UniqueIdentifier>{f0a79c36-3672-4729-99ed-53c6f3e759ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Game\Entity">
+      <UniqueIdentifier>{f9289f8b-1814-4377-965a-52dc42c378f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\Window.cpp">
+      <Filter>Source Files\src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pause\PauseState.cpp">
+      <Filter>Source Files\src\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameState.cpp">
+      <Filter>Source Files\src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\MenuState.cpp">
+      <Filter>Source Files\src\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\StateHandler.cpp">
+      <Filter>Source Files\src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\Menu.cpp">
+      <Filter>Source Files\src\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\SplashScreen.cpp">
+      <Filter>Source Files\src\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\Font.cpp">
+      <Filter>Source Files\src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameObjects\Entity.cpp">
+      <Filter>Source Files\src\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameObjects\Player.cpp">
+      <Filter>Source Files\src\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entity\Bullet.cpp">
+      <Filter>Source Files\src\Game\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utils\Window.h">
+      <Filter>Source Files\src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pause\PauseState.h">
+      <Filter>Source Files\src\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameState.h">
+      <Filter>Source Files\src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\MenuState.h">
+      <Filter>Source Files\src\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\StateHandler.h">
+      <Filter>Source Files\src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\Menu.h">
+      <Filter>Source Files\src\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\SplashScreen.h">
+      <Filter>Source Files\src\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Font.h">
+      <Filter>Source Files\src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameObjects\Entity.h">
+      <Filter>Source Files\src\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameObjects\Player.h">
+      <Filter>Source Files\src\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entity\Bullet.h">
+      <Filter>Source Files\src\Game\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
